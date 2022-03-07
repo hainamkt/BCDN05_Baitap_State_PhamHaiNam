@@ -1,38 +1,42 @@
-.App {
-  text-align: center;
+.App{
+    background-image: url(../build/img/glassesImage/Beach.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 650px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.model__left,.model__right{
+    text-align: center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.model__right{
+    position: relative;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.model__glass{
+    position: absolute;
+    left: 85px;
+    top: 82px;
 }
-
-.App-link {
-  color: #61dafb;
+.model__right .model__glass img{
+    opacity: 0.8;
+    width: 35%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.model__left img{
+    width: 50%;
+}
+.model__right img{
+    width: 50%;
+}
+.img__glass img{
+    width: 100%;
+}
+.img__glass .col-2{
+    background-color: white;
+    border: solid 1px;
+}
+.text{
+    position: absolute;
+    bottom: 0;
+    left: 26%;
+    background-color: orange;
+    opacity: 0.65;
+    width: 48%;
 }
