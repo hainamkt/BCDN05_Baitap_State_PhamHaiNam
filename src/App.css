@@ -1,5 +1,5 @@
 .App{
-    background-image: url(../build/img/glassesImage/Beach.jpg);
+    background-image: url(../public/img/glassesImage/Beach.jpg);
     background-position: center;
     background-size: cover;
     height: 650px;
